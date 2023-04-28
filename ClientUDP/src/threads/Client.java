@@ -25,7 +25,6 @@ public class Client {
     public void connect(){
         firstConnection();
         
-        System.out.println("Ahora puede enviar mensajes \\(>w<)/");
         InputHandler inputHandler = new InputHandler(socket);
         inputHandler.start();
         
